@@ -23,4 +23,4 @@ created by [@saifsmailbox98](https://github.com/saifsmailbox98)
 
 **Live site**
 
-[timetagged.herokuapp.com/](https://timetagged.herokuapp.com/)
+[timetagged.herokuapp.com](https://timetagged.herokuapp.com/)

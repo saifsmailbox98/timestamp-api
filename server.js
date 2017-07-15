@@ -46,11 +46,10 @@ app.get('/:time',function(req, res, next){
   }else{
     var date = new Date(req.params.time);
   }
-  if(isNaN(date)){
+ if(!date){
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify({"unix":null,"natural":null}));
   }else{
-    date  = new Date(date);
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify({"unix":date.getTime(),"natural":date.toDateString()}));
   }

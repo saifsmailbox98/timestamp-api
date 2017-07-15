@@ -1,2 +1,1 @@
-# timestamp-api
-API:Timestamp microservice 
+# Backend Challenges boilerplate - package.json

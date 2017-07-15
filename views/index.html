@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>API:Timestamp microservice</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="shortcut icon" href="https://cdn.glitch.com/f4a2a7dc-6a77-449d-b876-d26567b29932%2Ffavicon.ico?1500134836921" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <br>
+      <div class="container">
+         <h2 class="head-color">
+            API:Timestamp microservice
+         </h2>
+         <h4>
+            created by <a href="https://github.com/saifsmailbox98">@saifsmailbox98</a>
+         </h4>
+         <h6>
+            <a href = "https://github.com/saifsmailbox98/timestamp-api"><i class="fa fa-github"></i> Github Repository</a>
+         </h6>
+      </div>
+      <br>
+      <blockquote class="blockquote" style="margin:auto;max-width:1200px">
+         <div class="text">
+            <h3 class="subhead-color">
+               How it works:
+            </h3>
+            1) If passed a string as a parameter, it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
+            <br>
+            2) If it does, it returns both the Unix timestamp and the natural language form of that date.
+            <br>
+            3) If it does not contain a date or Unix timestamp, it returns null for those properties.
+         </div>
+      </blockquote>
+      <br>
+      <div style="margin:auto;max-width:1200px">
+         <h2 class="subhead-color">
+            Example usage:
+         </h2>
+         <code>https://timestamp-saif.glitch.me/July%2015,%202017</code> <a class="btn btn-warning btn-sm" href="/July%2015,%202017" role="button"><i class="fa fa-link"></i></a><br>
+         <code>https://timestamp-saif.glitch.me/1500076800000</code> <a class="btn btn-warning btn-sm" href="/1500076800000" role="button"><i class="fa fa-link"></i></a>
+         <h2 class="subhead-color">
+            Example output:
+         </h2>
+         <code>{ "unix":1500076800000, "natural":"Sat Jul 15 2017" }</code>
+      </div>
+      <br>
+   </body>
+</html>

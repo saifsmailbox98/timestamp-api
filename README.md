@@ -13,9 +13,9 @@ created by [@saifsmailbox98](https://github.com/saifsmailbox98)
 
 **Example usage:**
 
-```https://timestamp-saif.glitch.me/July%2015,%202017``` *[:link:](https://timestamp-saif.glitch.me/July%2015,%202017)*
+```https://timestamp-saif.herokuapp.com/July%2015,%202017``` *[:link:](https://timestamp-saif.herokuapp.com/July%2015,%202017)*
 
-```https://timestamp-saif.glitch.me/1500076800000``` *[:link:](https://timestamp-saif.glitch.me/1500076800000)*
+```https://timestamp-saif.herokuapp.com/1500076800000``` *[:link:](https://timestamp-saif.herokuapp.com/1500076800000)*
 
 **Example output:**
 

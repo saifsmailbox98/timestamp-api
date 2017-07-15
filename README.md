@@ -13,10 +13,14 @@ created by [@saifsmailbox98](https://github.com/saifsmailbox98)
 
 **Example usage:**
 
-```https://timestamp-saif.herokuapp.com/July%2015,%202017``` *[:link:](https://timestamp-saif.herokuapp.com/July%2015,%202017)*
+```https://timetagged.herokuapp.com/July%2015,%202017``` *[:link:](https://timetagged.herokuapp.com/July%2015,%202017)*
 
-```https://timestamp-saif.herokuapp.com/1500076800000``` *[:link:](https://timestamp-saif.herokuapp.com/1500076800000)*
+```https://timetagged.herokuapp.com/1500076800000``` *[:link:](https://timetagged.herokuapp.com/1500076800000)*
 
 **Example output:**
 
 ```{ "unix":1500076800000, "natural":"Sat Jul 15 2017" }```
+
+**Live site**
+
+[timetagged.herokuapp.com/](https://timetagged.herokuapp.com/)

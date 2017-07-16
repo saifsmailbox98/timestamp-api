@@ -1,17 +1,13 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"engines": {
-		"node": "4.4.5"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "timetagged",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+"engines": {
+		"node": "6.11.1"
+},
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }

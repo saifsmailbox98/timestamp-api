@@ -1,11 +1,6 @@
-var fs = require('fs');
 var express = require('express');
-var url = require('url');
 var path = require('path');
 var app = express();
-
-
-
 
 app.use('/public', express.static(path.join(__dirname ,'public')));
 

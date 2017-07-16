@@ -7,7 +7,7 @@ var app = express();
 
 
 
-app.use('/public', express.static(path.join(__dirname ,'public'));
+app.use('/public', express.static(path.join(__dirname ,'public')));
 
 app.use(function(req, res, next) { 
     res.header("Access-Control-Allow-Origin", "*");

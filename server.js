@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function(req, res){
-    res.sendFile("/views/index.html");
+    res.sendFile(path.join(__dirname, "views/index.html"));
 });
 
 app.get('/:time',function(req, res, next){

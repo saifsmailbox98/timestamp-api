@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
     next(); 
 });
 
-app.get('/', functiom(req, res){
+app.get('/', function(req, res){
     res.sendFile("/views/index.html");
 });
 
